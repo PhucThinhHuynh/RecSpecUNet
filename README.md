@@ -1,19 +1,7 @@
-# SD-YOLO: A Lightweight and High-Performance Deep Model for Small and Dense Object Detection
+# RecSpecUNet: A Recycled and Selective Architecture for Efficient Spectrogram Segmentation
 
-Object detection in remote sensing imagery from unmanned aerial vehicles (UAVs) presents critical challenges for autonomous operations, requiring algorithms that can accurately identify small, densely packed objects in complex backgrounds while maintaining real-time performance on resource-constrained platforms. However, existing detection models often struggle with the inherent trade-off between accuracy and computational efficiency, particularly when dealing with objects smaller than 32×32 pixels that dominate aerial imagery datasets.
+This paper presents RecSpecUNet, a deep learning model based on UNet, designed for automatic detection of Fifth Generation (5G), Long-Term Evolution (LTE), and radar signals in time–frequency spectrograms for next-generation wireless networks. The proposed architecture integrates two key innovations to enhance both identification accuracy and real-time efficiency: (i) the recycled convolution module, which reduces redundant deep-stage features and improves model compactness, and (ii) the selective channel concatenation module, which strengthens long-range dependencies and enhances channel interaction and spatial representation. Experimental results demonstrate that RecSpecUNet achieves outstanding performance, attaining 98.7% mean accuracy and 95.8% mean Intersection-over-Union with only 2.6M parameters and a low 1.9ms inference time. Compared to the baseline UNet, RecSpecUNet reduces parameters by 81.8% and GFLOPs by 25.5%, establishing it as a highly efficient and practical solution for real-time spectrum sensing on resource-constrained mobile devices.
 
-To address these limitations, we introduce SD-YOLO, an enhanced object detection architecture built upon YOLOv8 that specifically targets small and dense object detection in challenging remote sensing environments. SD-YOLO incorporates several key architectural innovations designed to maximize detection performance while minimizing computational overhead.
-
-![SD-YOLO network architecture with lightweight enhancements.](SD_YOLO.jpg)
-
-SD-YOLO employs a holistic architectural redesign strategy that combines specialized enhancement with systematic pruning, featuring a C2f-DMSC backbone with Dense Multi-Scale Convolution blocks and integrated Transformer modules for robust multi-scale feature extraction. The architecture includes a Multi-Scale Convolutional Block Attention Module that emphasizes critical regions while expanding the receptive field, and offers two variants (SD-YOLOn and SD-YOLOs) to balance efficiency and accuracy requirements across diverse deployment scenarios.
-
-![Illustration of UAV-based object detection in complex remote sensing scenarios.](Results_compare.jpg)
-
-Comprehensive evaluations demonstrate SD-YOLO's superior performance, with SD-YOLOn achieving 35.8% mAP₀.₅ on VisDrone-2019 while reducing parameters by 65% compared to YOLOv8n, and SD-YOLOs reaching state-of-the-art 79.2% mAP₀.₅ on LEVIR-Ship, establishing new benchmarks for lightweight yet accurate object detection in resource-constrained UAV applications.
-
-The Python code and dataset provided here are included in the under-review paper at Springer Signal Image Video Process.
-
-Phuc-Thinh Huynh, Minh-Thanh Le, Tran Duc Tan, Thien Huynh-The, "SD-YOLO: A Lightweight and High-Performance Deep Model for Small and Dense Object Detection", (2025), Signal Image Video Process.
+The dataset can be download on [Google Drive]([[https://github.com/PhucThinhHuynh](https://drive.google.com/file/d/1tw2Vu9sa8F5DpKSNm1jWxhkMWZWUJuTB/view?usp=sharing)]) (please report if not available).
 
 If there are any errors or topics that need to be discussed, please contact [Phuc-Thinh Huynh]([https://github.com/PhucThinhHuynh]) via email at huynhphucthinh51@gmail.com.
