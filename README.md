@@ -2,6 +2,6 @@
 
 This paper presents RecSpecUNet, a deep learning model based on UNet, designed for automatic detection of Fifth Generation (5G), Long-Term Evolution (LTE), and radar signals in time–frequency spectrograms for next-generation wireless networks. The proposed architecture integrates two key innovations to enhance both identification accuracy and real-time efficiency: (i) the recycled convolution module, which reduces redundant deep-stage features and improves model compactness, and (ii) the selective channel concatenation module, which strengthens long-range dependencies and enhances channel interaction and spatial representation. Experimental results demonstrate that RecSpecUNet achieves outstanding performance, attaining 98.7% mean accuracy and 95.8% mean Intersection-over-Union with only 2.6M parameters and a low 1.9ms inference time. Compared to the baseline UNet, RecSpecUNet reduces parameters by 81.8% and GFLOPs by 25.5%, establishing it as a highly efficient and practical solution for real-time spectrum sensing on resource-constrained mobile devices.
 
-The dataset can be download on [Google Drive]([[https://drive.google.com/file/d/1tw2Vu9sa8F5DpKSNm1jWxhkMWZWUJuTB/view?usp=sharing]) (please report if not available).
+The dataset can be download on [Google Drive](https://drive.google.com/file/d/1tw2Vu9sa8F5DpKSNm1jWxhkMWZWUJuTB/view?usp=sharing) (please report if not available).
 
-If there are any errors or topics that need to be discussed, please contact [Phuc-Thinh Huynh]([https://github.com/PhucThinhHuynh]) via email at huynhphucthinh51@gmail.com.
+If there are any errors or topics that need to be discussed, please contact [Phuc-Thinh Huynh](https://github.com/PhucThinhHuynh) via email at huynhphucthinh51@gmail.com.
