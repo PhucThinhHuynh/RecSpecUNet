@@ -10,4 +10,6 @@ Comprehensive experiments demonstrate that RecSpecUNet achieves a strong balance
 
 The dataset can be download on [Google Drive](https://drive.google.com/file/d/1tw2Vu9sa8F5DpKSNm1jWxhkMWZWUJuTB/view?usp=sharing) (please report if not available).
 
+T. Huynh-The, Q. -V. Pham, S. N. Truong, V. -C. Phan and P. -T. Huynh, "RecSpecUNet: A Recycled and Selective Architecture for Efficient Spectrogram Segmentation," in IEEE Communications Letters, doi: 10.1109/LCOMM.2026.3679529. [Link] (10.1109/LCOMM.2026.3679529)
+
 If there are any errors or topics that need to be discussed, please contact [Phuc-Thinh Huynh](https://github.com/PhucThinhHuynh) via email at huynhphucthinh51@gmail.com.
